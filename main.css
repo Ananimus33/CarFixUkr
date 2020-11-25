@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+.empty{}
+
+.main-body{
+  background-image: url('backstage.jpg');
+}
+
+
+.title-main-header{
+}
+
+ul{
+  background-image: url("blackbricks.jpg");
+  z-index: -1;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 70px;
+
+}
+
+.title-main-header{
+  position: sticky;
+  display: inline;
+}
+
+li a:hover{
+  color: #863BBC;
+}
+
+.navigation__link{
+  float: right;
+}
+
+li a{
+  color: #EAB00B;
+  text-decoration: none;
+  min-width: 50px;
+  display: block;
+  height: 70px;
+  padding: 20px;
+  margin: 0px 0px 0px 20px;
+  background-color: none;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.main-title {
+  position: fixed;
+  top : 0;
+  z-index: 1;
+  padding-left: 50px;
+  font-weight: normal;
+  font-style: italic;
+  font-family:Arial, Helvetica, sans-serif;
+  color: #F55735;
+  opacity: 1;
+  margin-left: 10px;
+  text-align: left;
+}
+.title-logo{
+  padding-top: 5px;
+  z-index: 1;
+  position: fixed;
+  top : 0;
+
+}
+
+.about{
+  max-width: 2500px;
+  min-width: 100px;
+  display: block;
+  text-align: center;
+  padding-top: 70px;
+
+}
+
+.about__title{
+  width: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  text-align: center;
+  border-style: none none solid none;
+  border-color: #B11D1D;
+  padding-bottom: 30px;
+
+}
+
+.about__text{
+  color: white;
+
+
+}
+
+.column {
+  color: white;
+  text-align: center;
+  float: left;
+  width: 33%;
+  padding-top: 15px;
+  padding-left: 3px;
+}
+
+.header-add1{
+  border-style: none none solid none;
+  border-color: #3F30B6;
+  }
+.header-add2{
+  border-style: none none solid none;
+  border-color: #B11D1D;
+
+}
+.header-add3{
+  border-style: none none solid none;
+  border-color: #0E8437;
+}
+.row::selection:not(.location__text) {
+  display: table;
+  clear: both;
+
+}
+
+.end-of-page{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(29, 23, 39, 0.8);
+  height: 30px
+  text-align: center;
+
+}
+
+.end-of-page__row:after{
+  display: table;
+  clear: both;
+}
+
+.end-of-page__column {
+  color: #EAB00B;
+  text-align: center;
+  float: left;
+  width: 33%;
+  padding-left: 3px;
+}
+
+
+.location{
+  display: block;
+  color: white;
+  padding-top: 270px;
+  padding-left: 50px;
+}
+
+.location__text{
+  text-align: left;
+}
+
+.location__map{
+  padding-top: 40px;
+  float: right;
+  padding-right: 30px;
+  width: 500px;
+  height: 300px;
+}
+
+.location__title{
+  text-align: center;
+  width: 150px;
+  border-bottom: solid;
+  border-color: #EAB00B;
+}
+
+
+.review__title{
+  padding-top: 137px;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  text-align: center;
+  border-bottom: solid;
+  border-color: #B11D1D;
+}
+
+.photos{
+ padding-left: 40px;
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+  transform: scale(1.25, 1.25);
+  overflow: hidden;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+</style>
+</head>
+</html>
