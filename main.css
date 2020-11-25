@@ -194,6 +194,7 @@ li a{
 
 .photos{
  padding-left: 40px;
+ margin-bottom: 350px;
 }
 div.gallery {
   margin: 5px;
@@ -212,10 +213,6 @@ div.gallery img {
   width: 100%;
   height: auto;
 }
-
-
-
-
 
 
 
